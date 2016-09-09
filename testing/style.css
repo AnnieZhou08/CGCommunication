@@ -1,0 +1,213 @@
+/* BEGIN BASIC FORUM STYLES */
+/*
+body {
+	background-color: #D0F5A9;
+	text-align: center;			/* make sure IE centers the page too 
+} */
+
+.body-admin {
+  background-color: "#A9F5F2";
+} 
+
+.body-family {
+  background-color: "#A9F5F2";
+} 
+
+.body-volunteer {
+  background-color: "#A9F5F2";
+} 
+
+#wrapper {
+    width: 90%;          
+    margin: 0 auto;             /* center the page */
+}
+ 
+#content {
+	opacity: 0.95;
+    /*border: 1px solid #000; */
+    float: left;
+    font-family: Courier;
+	font-weight:light;
+    padding: 20px 30px;
+    text-align: left;
+	color: black; 
+	margin-top: 8%;
+	margin-left: 5%;
+    width: 100%;                /* fill up the entire div */
+}
+#content a{
+	opacity:1;
+	color: black;
+}
+#content a:hover{
+	color:#8B8B8B;
+}
+ 
+#menu {
+    float: left;
+    /*border: 1px solid #000;*/
+    border-bottom: none;        /* avoid a double border */
+    clear: both;                /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    width:90%;
+    height:50px;
+    padding: 0 30px;
+    text-align: left;
+    font-size: 100%;
+	height:40px;
+	color:black;
+	margin-top: 1%;
+	margin-left: -4.5%;
+}
+ 
+#menu a:hover {
+    color: #8B8B8B;
+}
+ 
+#userbar {
+    background-color: #fff;
+    float: right;
+    width: 250px;
+}
+ 
+#footer {
+    clear: both;
+}
+ 
+/* begin table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+	border-color: grey;
+}
+
+table a {
+    color: #000;
+}
+ 
+table a:hover {
+    color:#F7D2A5;
+    text-decoration: none;
+}
+ 
+th {
+    background-color: silver;
+    color: black;
+	font-size:15pt;
+	text-align:center;
+	padding:10px;
+}
+ 
+td {
+    padding: 5px;
+	border-color: silver;
+}
+
+.input {
+	/* width: 60%; */
+	width: 320px;
+}
+
+h1, #footer {
+    font-family: Arial;
+    color: #787978;
+}
+h2 {
+	color: black;
+}
+ 
+h3 {margin: 0; padding: 0;}
+
+h4 {margin: 0; padding: 0; letter-spacing: 0px;}
+ 
+/* Menu styles */
+.item {
+    color: black;
+    font-family: Courier;
+    padding: 10px;
+	font-size:15pt;  
+}
+.itemtest{
+	right:0px;
+}
+ 
+.leftpart {
+    width: 30%;
+	color: black;
+	text-align: center;
+}
+ 
+.rightpart {
+    width: 70%;
+	color: black;
+}
+ 
+.small {
+    font-size: 75%;
+    color: #373737;
+}
+#footer {
+    font-size: 65%;
+    padding: 3px 0 0 0;
+}
+ 
+.topic-post {
+    height: 100px;
+    overflow: auto;
+	color: black;
+}
+ 
+.post-content {
+    padding: 30px;
+	color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+form1{
+
+
+
+}
+
+form { 
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+	text-align: center;
+}
+
+/* calendar */
+div.day-number	 { 
+	background:#999; 
+	position:absolute; 
+	z-index:2; 
+	top:-5px; 
+	right:-25px; 
+	padding:5px; 
+	color:#fff; 
+	font-weight:bold; 
+	width:20px; 
+	text-align:center; 
+}
+td.calendar-day, td.calendar-day-np { 
+	width:120px; 
+	padding:5px 25px 5px 5px; 
+	border-bottom:1px solid #999; 
+	border-right:1px solid #999; 
+	color: black;
+}
+td.user-message {
+	font-weight: bold;
+}
+

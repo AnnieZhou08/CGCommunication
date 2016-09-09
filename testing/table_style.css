@@ -1,0 +1,181 @@
+/* BEGIN BASIC FORUM STYLES */
+
+.body-admin {
+  background-color: "#A9F5F2";
+} 
+
+.body-family {
+  background-color: "#A9F5F2";
+} 
+
+.body-volunteer {
+  background-color: "#A9F5F2";
+} 
+
+#wrapper {
+    width: 80%;          
+    margin: 0 auto;             /* center the page */
+}
+ 
+#content {
+    background-color: #fff;
+    border: 1px solid #000;
+    float: left;
+    font-family: Arial;
+    padding: 20px 30px;
+    text-align: left;
+    width: 100%;                /* fill up the entire div */
+}
+ 
+#menu {
+    float: left;
+    border-bottom: none;        /* avoid a double border */
+    clear: both;                /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    width:100%;
+    height:20px;
+    padding: 0 30px;
+    background-color: #FFF;
+    text-align: left;
+    font-size: 85%;
+}
+ 
+#menu a:hover {
+    background-color: #009FC1;
+}
+ 
+#userbar {
+    background-color: #fff;
+    float: right;
+    width: 250px;
+}
+ 
+#footer {
+    clear: both;
+}
+ 
+/* begin table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+	border: 1px solid white;
+	color: white;
+}
+
+table a {
+    color: white;
+	background-color: black;
+}
+ 
+table a:hover {
+    color:#373737;
+    text-decoration: none;
+}
+ 
+th {
+    background-color: #275a07;
+    color: white;
+	border: 1px solid black;
+}
+ 
+td {
+    padding: 5px;
+	border: 1px solid black;
+	color: white;
+}
+
+.input {
+	/* width: 60%; */
+	width: 320px;
+}
+
+h1, #footer {
+    font-family: Arial;
+    color: #787978;
+}
+ 
+h3 {margin: 0; padding: 0;}
+
+h4 {margin: 0; padding: 0;}
+ 
+/* Menu styles */
+.item {
+    background-color: #00728B;
+    color: #FFF;
+    font-family: Arial;
+    padding: 3px;
+    text-decoration: none;
+}
+ 
+.leftpart {
+    width: 70%;
+	color:white;
+}
+ 
+.rightpart {
+    width: 30%;
+	color: white;
+}
+ 
+.small {
+    font-size: 75%;
+    color: #373737;
+}
+#footer {
+    font-size: 65%;
+    padding: 3px 0 0 0;
+}
+ 
+.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+ 
+.post-content {
+    padding: 30px;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+}
+a {
+	color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+form { 
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+	text-align: left;
+	color: white;
+}
+
+/* calendar */
+div.day-number	 { 
+	background:#999; 
+	position:absolute; 
+	z-index:2; 
+	top:-5px; 
+	right:-25px; 
+	padding:5px; 
+	color:#fff; 
+	font-weight:bold; 
+	width:20px; 
+	text-align:center; 
+}
+td.calendar-day, td.calendar-day-np { 
+	width:120px; 
+	padding:5px 25px 5px 5px; 
+	border-bottom:1px solid #999; 
+	border-right:1px solid #999; 
+}
+

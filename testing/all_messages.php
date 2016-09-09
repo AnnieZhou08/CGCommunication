@@ -2,6 +2,7 @@
 error_reporting(E_ALL ^ E_NOTICE);
 include 'connect.php';
 
+//TESTING
 //first select the category based on $_GET['cat_id']
 $sql = "SELECT
 			message_from,
